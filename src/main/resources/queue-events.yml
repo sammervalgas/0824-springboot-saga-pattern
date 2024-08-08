@@ -1,0 +1,7 @@
+saga:
+  queues:
+    pre-order: pre-order-event.queue
+    gen-order: gen-order-event.queue
+    delivery-order: delivery-order-event.queue
+    payment-order: payment-order-event.queue
+  dlqs: {}
